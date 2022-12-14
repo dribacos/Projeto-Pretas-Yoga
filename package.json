@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "jest": "^29.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "save": "^2.9.0",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "name": "pretasyoga",
+  "version": "1.0.0",
+  "description": "Projeto_final_pretasyoga",
+  "main": "server.js",
+  "author": "Adriane Costa",
+  "license": "ISC"
+}
