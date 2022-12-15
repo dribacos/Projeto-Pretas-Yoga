@@ -59,7 +59,6 @@ const criar = (req, res) => {
       return res.status(500)
       }
 
-     //res.status(500).send({ message: err.message });
      res.status(201).send(cadastro.toJSON());
   });
 };

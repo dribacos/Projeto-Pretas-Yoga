@@ -13,10 +13,13 @@ const listar = async (req, res) => {
   };
 
   const criar = (req, res) => {
-    const {nomeEstudio, rua, numero, bairro, email, zonaUrbanaSP, quantidadeVagas} = req.body
+    try{
+    const {login, senha, nomeEstudio, rua, numero, bairro, email, zonaUrbanaSP, quantidadeVagas} = req.body
     console.log(req.body);
   
     const cadastro = new estudioModel ({
+      login,
+      senha,
       nomeEstudio,
       rua,
       numero,
@@ -26,15 +29,12 @@ const listar = async (req, res) => {
       quantidadeVagas,
     });
   
-    cadastro.save(function (err) {
-      if (err) {
-        return res.status(500)
-        }
-  
-       res.status(201).send(cadastro.toJSON());
-    });
-  };
-
+    cadastro.save()
+    res.status(201).send(cadastro);
+    } catch(error) {
+      res.status(500).send(error.message)
+    }
+    }
   const login = async (req, res) => {
     try {
       estudioModel.findOne({nomeEstudio: req.body.nomeEstudio}, function (error, estudio) {

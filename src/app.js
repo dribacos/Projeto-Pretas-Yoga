@@ -16,4 +16,3 @@ app.use('/minha-rota-de-documentacao', swaggerUi.serve, swaggerUi.setup(swaggerF
 
 module.exports = app
 
-//toda vez que alterar o codigo no terminal precisa escrever npm run swagger-autogen*/
