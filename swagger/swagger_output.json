@@ -11,7 +11,7 @@
     "http"
   ],
   "paths": {
-    "/pretasYoga/listarEstudios": {
+    "/pretasyoga/listarestudios": {
       "get": {
         "description": "",
         "parameters": [],
@@ -25,7 +25,7 @@
         }
       }
     },
-    "/pretasYoga/cadastrarEstudio": {
+    "/pretasyoga/cadastrarestudio": {
       "post": {
         "description": "",
         "parameters": [
@@ -35,6 +35,12 @@
             "schema": {
               "type": "object",
               "properties": {
+                "login": {
+                  "example": "any"
+                },
+                "senha": {
+                  "example": "any"
+                },
                 "nomeEstudio": {
                   "example": "any"
                 },
@@ -70,7 +76,7 @@
         }
       }
     },
-    "/pretasYoga/login": {
+    "/pretasyoga/login": {
       "post": {
         "description": "",
         "parameters": [
@@ -106,7 +112,7 @@
         }
       }
     },
-    "/pretasYoga/atualizarDadosEstudio": {
+    "/pretasyoga/atualizardadosestudio": {
       "patch": {
         "description": "",
         "parameters": [
@@ -151,7 +157,7 @@
         }
       }
     },
-    "/pretasYoga/deletarEstudio": {
+    "/pretasyoga/deletarestudio": {
       "delete": {
         "description": "",
         "parameters": [],
@@ -168,7 +174,7 @@
         }
       }
     },
-    "/pretasYoga/cadastradas": {
+    "/pretasyoga/cadastradas": {
       "get": {
         "description": "",
         "parameters": [],
@@ -182,7 +188,7 @@
         }
       }
     },
-    "/pretasYoga/alunasMatriculadas/{id}": {
+    "/pretasyoga/alunasmatriculadas/{id}": {
       "get": {
         "description": "",
         "parameters": [
@@ -209,7 +215,7 @@
         }
       }
     },
-    "/pretasYoga/cadastrar": {
+    "/pretasyoga/cadastrar": {
       "post": {
         "description": "",
         "parameters": [

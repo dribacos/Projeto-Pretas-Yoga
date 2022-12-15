@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 mongoose.connect()
 
-app.use('/pretasYoga', rota);
+app.use('/pretasyoga', rota);
 app.use('/minha-rota-de-documentacao', swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 module.exports = app
