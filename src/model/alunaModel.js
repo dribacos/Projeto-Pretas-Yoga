@@ -35,9 +35,9 @@ const alunaSchema = new mongoose.Schema(
             required: true,
         },
         estudio: {
-            type: mongoose.Schema.Types.ObjectId,
+            type: String,
             required: true,
-            ref: "estudios"
+            
         }
     },
 );

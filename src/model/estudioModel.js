@@ -11,7 +11,7 @@ const EstudioSchema = new mongoose.Schema(
             required:true,
         },
         senha: {
-            type: Number,
+            type: String,
             required: true,
         },
         nomeEstudio: {

@@ -35,10 +35,10 @@
             "schema": {
               "type": "object",
               "properties": {
-                "login": {
+                "senha": {
                   "example": "any"
                 },
-                "senha": {
+                "login": {
                   "example": "any"
                 },
                 "nomeEstudio": {
@@ -86,7 +86,7 @@
             "schema": {
               "type": "object",
               "properties": {
-                "nomeEstudio": {
+                "login": {
                   "example": "any"
                 },
                 "senha": {
@@ -112,16 +112,28 @@
         }
       }
     },
-    "/pretasyoga/atualizardadosestudio": {
+    "/pretasyoga/atualizardadosestudio/{id}": {
       "patch": {
         "description": "",
         "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
           {
             "name": "body",
             "in": "body",
             "schema": {
               "type": "object",
               "properties": {
+                "login": {
+                  "example": "any"
+                },
+                "senha": {
+                  "example": "any"
+                },
                 "nomeEstudio": {
                   "example": "any"
                 },
@@ -157,10 +169,17 @@
         }
       }
     },
-    "/pretasyoga/deletarestudio": {
+    "/pretasyoga/deletarestudio/{id}": {
       "delete": {
         "description": "",
-        "parameters": [],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
