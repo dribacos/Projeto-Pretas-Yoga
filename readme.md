@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-<img src="https://uploaddeimagens.com.br/images/004/264/325/full/Pretas_Yoga.png?1671239049" alt="mulheres negras fazendo yoga, junto com o titulo Pretas yoGA" width="500">
+<img src="https://uploaddeimagens.com.br/images/004/264/325/full/Pretas_Yoga.png?1671239049" alt="mulheres negras fazendo yoga, junto com o titulo Pretas yoGA" width="350">
 <p align="center"><p>
 </h1>
 
@@ -28,7 +28,7 @@ Assim, o intuito é conscientizar professores de yoga/ estúdios a incluir mais 
 Swagger UI disponível [aqui](https://projetopretasyoga.onrender.com/minha-rota-de-documentacao/) 
 
 <h1 align="center">
-<img src=https://uploaddeimagens.com.br/images/004/264/429/full/rotas_swagger_0.PNG?1671251661" alt="uma documentação das rotas implementadas na API Preta Yoga" width="500">
+<img src=https://uploaddeimagens.com.br/images/004/264/429/full/rotas_swagger_0.PNG?1671251661" alt="uma documentação das rotas implementadas na API Preta Yoga" width="800">
 <p align="center">Pretas Yoga - API <p>
 </h1>
 
