@@ -15,7 +15,7 @@
 
 O “Pretas yoga”, projeto de conclusão do  bootcamp de back-end da [{reprograma}](https://reprograma.com.br/), é uma API que tem por objetivo listar estúdios com aulas de Yoga gratuitas ou com valor social para mulheres pretas em SP.
 
-## *Contextualização*
+## 🔗*Contextualização*
 <h1 align="center">
 O Yoga não é apenas uma atividade corporal, o Yoga é capaz de alinhar o corpo e a mente, alivia as tensões e proporciona a cura. Além disso, aumenta a capacidade de concentração, combate estresse, ansiedade e possui ferramentas capazes de ajudar o praticante a lidar com traumas, isso foi comprovado cientificamente pelo Instituto Nacional de Saúde dos Estados Unidos (EUA). 
 </h1>
@@ -24,7 +24,7 @@ Baseado em minhas vivências no yoga como mulher preta, quando comecei a pratica
 
 Assim, o intuito é conscientizar professores de yoga/ estúdios a incluir mais mulheres pretas nas aulas com gratuidade e valor social, mostrando a elas que é possível praticar e viver o Yoga.
 
-## *Documentação da REST API*
+## 📁*Documentação da REST API*
 Swagger UI disponível [aqui](https://projetopretasyoga.onrender.com/minha-rota-de-documentacao/) 
 
 <h1 align="center">
@@ -33,7 +33,7 @@ Swagger UI disponível [aqui](https://projetopretasyoga.onrender.com/minha-rota-
 </h1>
 
 
-## *Funcionalidades*:
+## ⚙️*Funcionalidades*:
 
 - [x] O schema das alunas possui os campos: id (autogerado), nomeAluna, idade, raça_cor, telefone, e-mail, zonaUrbanaSP, matriculada, estudio.
 - [x] O schema dos estúdios possui os campos: id (autogerado), login, senha, nomeEstudio, rua, número, bairro, zonaUrbanaSP, quantidadeVagas.
@@ -44,7 +44,7 @@ Swagger UI disponível [aqui](https://projetopretasyoga.onrender.com/minha-rota-
 - [x] Criação de usuário e login para os Estúdios com acesso sem restrição;
 - [x] Preenchimento de formulário para alunas, somente visualização e seleção dos estúdios.
 
-## *Instalação*
+## 💻*Instalação*
 
 ```bash
 # Clonar o repositório
@@ -63,7 +63,7 @@ $ npm start
 Caso esteja utilizando outro gerenciador de pacotes, apenas altere o npm para seu respectivo instalador.
 
 
-## *Tecnologias e pacotes utilizados*
+## 🛠️*Tecnologias e pacotes utilizados*
 - Node.js
 - MongoDB
 - Git
@@ -81,7 +81,7 @@ Caso esteja utilizando outro gerenciador de pacotes, apenas altere o npm para se
 - Render
 
 
-## *Rotas/Endpoints*
+## 🔃*Rotas/Endpoints*
 
 | Rotas alunas                             |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
@@ -99,22 +99,22 @@ Caso esteja utilizando outro gerenciador de pacotes, apenas altere o npm para se
 | patch/atualizardadosestudio/:id          | altera dados de vagas                              |
 | delete/pretasyoga/deletarestudio/id      | Exclui estúdio cadastrado                         |
 
-## *Implementações futuras* 💡
+## 🚧*Implementações futuras*
 * Testes
 * Integração com APIs externas
 * View
 
-## *Contribua para o nosso projeto!*
+##  🚀*Contribua para o nosso projeto!*
 
 1. Faça o fork do projeto;
 2. Crie uma branch para realizar suas alterações: `git checkout -b feature/nome-da-nova-branch`
 3. Commit as alterações feitas e abra um pull request
 
-## *Recursos e rotas*
+## ✅*Recursos e rotas*
 Esta API está sendo escutada na `porta 3030` e para que todas as rotas possam ser acessadas localmente é necessário usar `http://localhost:3030/` antes dos endpoints de requisição.
 
 
-## *Conecte-se comigo* 💌
+## 💌*Conecte-se comigo* 
 - E-mail: adraneabc_ap@hotmail.com 
 - LikedIn: [Adriane Costa](https://www.linkedin.com/in/adriane-costa-977a04b7/)
 <h1 align="center">
