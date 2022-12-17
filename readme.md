@@ -16,9 +16,9 @@
 O “Pretas yoga”, projeto de conclusão do  bootcamp de back-end da [{reprograma}](https://reprograma.com.br/), é uma API que tem por objetivo listar estúdios com aulas de Yoga gratuitas ou com valor social para mulheres pretas em SP.
 
 ## 🔗*Contextualização*
-<h1 align="center">
+<h2 align="center">
 O Yoga não é apenas uma atividade corporal, o Yoga é capaz de alinhar o corpo e a mente, alivia as tensões e proporciona a cura. Além disso, aumenta a capacidade de concentração, combate estresse, ansiedade e possui ferramentas capazes de ajudar o praticante a lidar com traumas, isso foi comprovado cientificamente pelo Instituto Nacional de Saúde dos Estados Unidos (EUA). 
-</h1>
+</h2>
 
 Baseado em minhas vivências no yoga como mulher preta, quando comecei a praticar yoga em São Paulo percebi que eu era a única mulher preta nas aulas, tanto nas aulas abertas e gratuitas quanto as pagas. Decidi, então, investir em minha formação em yoga para ocupar espaços como mulher negra e como instrumento de autoconhecimento. Por ser um curso caro e geralmente em bairros nobres da cidade, me vi como única mulher preta na sala. Porque o yoga ainda costuma ser um espaço de pessoas brancas e de elite. Quanto mais eu me aprofundava nos estudos, entendia que o yoga é na verdade de todos e para todos, porém não tem alcançado todos, principalmente corpos pretos. E quando olhamos com atenção para as mulheres pretas e periféricas, percebemos um padrão na falta de autocuidado. Essas mulheres, no geral, trabalham muito, se preocupam com a casa e em pôr a comida na mesa para a família, muitas não conseguem fazer mais do que isso com o pequeno salário que ganham e ficam sem condições de investir nelas mesmas.  E facilitar o acesso dessas mulheres ao yoga pode ajudá-las para o autocuidado, saúde mental e espiritual, além da melhora da saúde física. Com isso, elas podem ter mais consciência de mundo, enxergar a vida além do trabalho, se amar mais e se reconectar com sua ancestralidade, e a partir disso criar uma rede de apoio e cuidado. Porque yoga não é somente sobre flexibilidade e apenas para ricos e brancos, é sobre viver bem, é sobre cuidar de si, olhar para dentro e olhar para o todo.
 
@@ -86,8 +86,8 @@ Caso esteja utilizando outro gerenciador de pacotes, apenas altere o npm para se
 | Rotas alunas                             |                                                    |
 | ---------------------------------------  | -------------------------------------------------- | 
 | GET/pretasyoga/cadastradas               | Lista alunas cadastradas                           |
-| GET/pretasyoga/alunasmatriculadas/:id    | Lista aluna por ID                                |
-| POST/pretasyoga/cadastrar                | Cria alunas                                   |
+| GET/pretasyoga/alunasmatriculadas/:id    | Lista aluna por ID                                 |
+| POST/pretasyoga/cadastrar                | Cria alunas                                        |
 
 
 
@@ -97,7 +97,7 @@ Caso esteja utilizando outro gerenciador de pacotes, apenas altere o npm para se
 | POST/pretasyoga/cadastrarestudio         | Cadastrar estúdios                                 |
 | POST/pretasyoga/login                    | Login estúdio                                      |
 | patch/atualizardadosestudio/:id          | altera dados de vagas                              |
-| delete/pretasyoga/deletarestudio/id      | Exclui estúdio cadastrado                         |
+| delete/pretasyoga/deletarestudio/id      | Exclui estúdio cadastrado                          |
 
 ## 🚧*Implementações futuras*
 * Testes
@@ -117,11 +117,11 @@ Esta API está sendo escutada na `porta 3030` e para que todas as rotas possam s
 ## 💌*Conecte-se comigo* 
 - E-mail: adraneabc_ap@hotmail.com 
 - LikedIn: [Adriane Costa](https://www.linkedin.com/in/adriane-costa-977a04b7/)
-<h1 align="center">
+<h2 align="center">
   <img src="https://uploaddeimagens.com.br/images/004/264/585/full/foto_para_apres_guith_%287%29.jpeg?1671281420" alt="mulher negra, cabelo black power, jovem, usando óculos redondos e vestindo uma blusa verde">
   <p align="center">Deva Back-End Adriane Costa
 <p>
-</h1>
+</h2>
                    
 ## Obrigada!!!       
                    
