@@ -118,11 +118,17 @@ Esta API está sendo escutada na `porta 3030` e para que todas as rotas possam s
 - E-mail: adraneabc_ap@hotmail.com 
 - LikedIn: [Adriane Costa](https://www.linkedin.com/in/adriane-costa-977a04b7/)
 <h1 align="center">
-  <img src="https://uploaddeimagens.com.br/images/004/264/426/full/foto_para_apres_guith.jpeg?16712506884" alt="mulher negra, cabelo black power, jovem, usando óculos redondos e vestindo uma blusa verde">
+  <img src="https://uploaddeimagens.com.br/images/004/264/585/full/foto_para_apres_guith_%287%29.jpeg?1671281420" alt="mulher negra, cabelo black power, jovem, usando óculos redondos e vestindo uma blusa verde">
   <p align="center">Deva Back-End Adriane Costa
 <p>
 </h1>
-               
+                   
+## Obrigada!!!       
+                   
+                   
+![tenor](https://user-images.githubusercontent.com/109555055/208241631-17947923-5b68-4827-8d02-b002449bf293.gif)
+
+           
 
 Desenvolvido com :purple_heart: 
 </p>
